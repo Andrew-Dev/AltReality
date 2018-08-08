@@ -7,11 +7,18 @@
 //
 
 import UIKit
+import CoreLocation
 
 class ViewController: UIViewController {
-
+    var locationHelper: UserLocationHelper!
+    
+    func onLocationUpdate(location: CLLocation) {
+        print(location)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.locationHelper = UserLocationHelper(onUpdate: self.onLocationUpdate)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

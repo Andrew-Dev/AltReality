@@ -14,6 +14,14 @@
 		49A7AD01211B9B230035351D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A7ACFF211B9B230035351D /* LaunchScreen.storyboard */; };
 		49A7AD0C211B9B230035351D /* AltRealityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7AD0B211B9B230035351D /* AltRealityTests.swift */; };
 		49A7AD17211B9B230035351D /* AltRealityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7AD16211B9B230035351D /* AltRealityUITests.swift */; };
+		49FAAECC211B9EA800541C9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49FAAECB211B9EA800541C9C /* GoogleService-Info.plist */; };
+		49FAAECD211B9EA800541C9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49FAAECB211B9EA800541C9C /* GoogleService-Info.plist */; };
+		49FAAECE211B9EA800541C9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49FAAECB211B9EA800541C9C /* GoogleService-Info.plist */; };
+		49FAAED1211BA35100541C9C /* GeoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FAAED0211BA35100541C9C /* GeoItems.swift */; };
+		49FAAED4211BA3C400541C9C /* UserLocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FAAED3211BA3C400541C9C /* UserLocationHelper.swift */; };
+		7CBA37093CC6DA58B8273FC7 /* Pods_AltRealityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1531E2FF426946DDB79905E /* Pods_AltRealityTests.framework */; };
+		A650BA7540BCE6F8C852C354 /* Pods_AltReality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EEF053232FEBA64EBEAE75 /* Pods_AltReality.framework */; };
+		F73E6B7595B93F02FF613BFF /* Pods_AltRealityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA6E6A49CF48EC9B4100AC7 /* Pods_AltRealityUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15B3A53A861E86BF5B73B4EC /* Pods-AltRealityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltRealityUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AltRealityUITests/Pods-AltRealityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		187592801489A802268B539B /* Pods-AltRealityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltRealityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AltRealityTests/Pods-AltRealityTests.release.xcconfig"; sourceTree = "<group>"; };
 		49A7ACF3211B9B220035351D /* AltReality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AltReality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A7ACF6211B9B220035351D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49A7ACF8211B9B220035351D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,16 @@
 		49A7AD12211B9B230035351D /* AltRealityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltRealityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A7AD16211B9B230035351D /* AltRealityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltRealityUITests.swift; sourceTree = "<group>"; };
 		49A7AD18211B9B230035351D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FAAECB211B9EA800541C9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49FAAED0211BA35100541C9C /* GeoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoItems.swift; sourceTree = "<group>"; };
+		49FAAED3211BA3C400541C9C /* UserLocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationHelper.swift; sourceTree = "<group>"; };
+		515054F0F996A45F9F51F389 /* Pods-AltReality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltReality.release.xcconfig"; path = "Pods/Target Support Files/Pods-AltReality/Pods-AltReality.release.xcconfig"; sourceTree = "<group>"; };
+		7DFA0CB370457440AEB88E6A /* Pods-AltRealityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltRealityUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AltRealityUITests/Pods-AltRealityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1531E2FF426946DDB79905E /* Pods_AltRealityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AltRealityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1EE2D7ACE8A5DEC2CF5999F /* Pods-AltReality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltReality.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AltReality/Pods-AltReality.debug.xcconfig"; sourceTree = "<group>"; };
+		E2EEF053232FEBA64EBEAE75 /* Pods_AltReality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AltReality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB5D8F25E93BE36DA253796 /* Pods-AltRealityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltRealityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AltRealityTests/Pods-AltRealityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA6E6A49CF48EC9B4100AC7 /* Pods_AltRealityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AltRealityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A650BA7540BCE6F8C852C354 /* Pods_AltReality.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CBA37093CC6DA58B8273FC7 /* Pods_AltRealityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73E6B7595B93F02FF613BFF /* Pods_AltRealityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +100,13 @@
 		49A7ACEA211B9B220035351D = {
 			isa = PBXGroup;
 			children = (
+				49FAAECB211B9EA800541C9C /* GoogleService-Info.plist */,
 				49A7ACF5211B9B220035351D /* AltReality */,
 				49A7AD0A211B9B230035351D /* AltRealityTests */,
 				49A7AD15211B9B230035351D /* AltRealityUITests */,
 				49A7ACF4211B9B220035351D /* Products */,
+				8BC1F5823CCD09553DAC9819 /* Pods */,
+				4FAD54FD3CADC8DB6CF74C01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +123,8 @@
 		49A7ACF5211B9B220035351D /* AltReality */ = {
 			isa = PBXGroup;
 			children = (
+				49FAAED2211BA3B100541C9C /* Utilities */,
+				49FAAECF211BA2D800541C9C /* Services */,
 				49A7ACF6211B9B220035351D /* AppDelegate.swift */,
 				49A7ACF8211B9B220035351D /* ViewController.swift */,
 				49A7ACFA211B9B220035351D /* Main.storyboard */,
@@ -125,6 +153,45 @@
 			path = AltRealityUITests;
 			sourceTree = "<group>";
 		};
+		49FAAECF211BA2D800541C9C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				49FAAED0211BA35100541C9C /* GeoItems.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		49FAAED2211BA3B100541C9C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				49FAAED3211BA3C400541C9C /* UserLocationHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4FAD54FD3CADC8DB6CF74C01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2EEF053232FEBA64EBEAE75 /* Pods_AltReality.framework */,
+				C1531E2FF426946DDB79905E /* Pods_AltRealityTests.framework */,
+				FCA6E6A49CF48EC9B4100AC7 /* Pods_AltRealityUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BC1F5823CCD09553DAC9819 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1EE2D7ACE8A5DEC2CF5999F /* Pods-AltReality.debug.xcconfig */,
+				515054F0F996A45F9F51F389 /* Pods-AltReality.release.xcconfig */,
+				EFB5D8F25E93BE36DA253796 /* Pods-AltRealityTests.debug.xcconfig */,
+				187592801489A802268B539B /* Pods-AltRealityTests.release.xcconfig */,
+				15B3A53A861E86BF5B73B4EC /* Pods-AltRealityUITests.debug.xcconfig */,
+				7DFA0CB370457440AEB88E6A /* Pods-AltRealityUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49A7AD1B211B9B230035351D /* Build configuration list for PBXNativeTarget "AltReality" */;
 			buildPhases = (
+				BE7860A8039437F66D3B1176 /* [CP] Check Pods Manifest.lock */,
 				49A7ACEF211B9B220035351D /* Sources */,
 				49A7ACF0211B9B220035351D /* Frameworks */,
 				49A7ACF1211B9B220035351D /* Resources */,
+				97423434BB51CF7C4DA36F35 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49A7AD1E211B9B230035351D /* Build configuration list for PBXNativeTarget "AltRealityTests" */;
 			buildPhases = (
+				13714BE9E35BA96A9F61D449 /* [CP] Check Pods Manifest.lock */,
 				49A7AD03211B9B230035351D /* Sources */,
 				49A7AD04211B9B230035351D /* Frameworks */,
 				49A7AD05211B9B230035351D /* Resources */,
@@ -167,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49A7AD21211B9B230035351D /* Build configuration list for PBXNativeTarget "AltRealityUITests" */;
 			buildPhases = (
+				12EF02895EB7DBA4F1C6B6FE /* [CP] Check Pods Manifest.lock */,
 				49A7AD0E211B9B230035351D /* Sources */,
 				49A7AD0F211B9B230035351D /* Frameworks */,
 				49A7AD10211B9B230035351D /* Resources */,
@@ -230,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49A7AD01211B9B230035351D /* LaunchScreen.storyboard in Resources */,
+				49FAAECC211B9EA800541C9C /* GoogleService-Info.plist in Resources */,
 				49A7ACFE211B9B230035351D /* Assets.xcassets in Resources */,
 				49A7ACFC211B9B220035351D /* Main.storyboard in Resources */,
 			);
@@ -239,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FAAECD211B9EA800541C9C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +319,112 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FAAECE211B9EA800541C9C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12EF02895EB7DBA4F1C6B6FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AltRealityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13714BE9E35BA96A9F61D449 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AltRealityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97423434BB51CF7C4DA36F35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AltReality/Pods-AltReality-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AltReality/Pods-AltReality-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE7860A8039437F66D3B1176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AltReality-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49A7ACEF211B9B220035351D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FAAED1211BA35100541C9C /* GeoItems.swift in Sources */,
 				49A7ACF9211B9B220035351D /* ViewController.swift in Sources */,
 				49A7ACF7211B9B220035351D /* AppDelegate.swift in Sources */,
+				49FAAED4211BA3C400541C9C /* UserLocationHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +595,11 @@
 		};
 		49A7AD1C211B9B230035351D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EE2D7ACE8A5DEC2CF5999F /* Pods-AltReality.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJKXF7XV99;
 				INFOPLIST_FILE = AltReality/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,9 +614,11 @@
 		};
 		49A7AD1D211B9B230035351D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515054F0F996A45F9F51F389 /* Pods-AltReality.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJKXF7XV99;
 				INFOPLIST_FILE = AltReality/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +633,7 @@
 		};
 		49A7AD1F211B9B230035351D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB5D8F25E93BE36DA253796 /* Pods-AltRealityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +654,7 @@
 		};
 		49A7AD20211B9B230035351D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187592801489A802268B539B /* Pods-AltRealityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +675,7 @@
 		};
 		49A7AD22211B9B230035351D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B3A53A861E86BF5B73B4EC /* Pods-AltRealityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +695,7 @@
 		};
 		49A7AD23211B9B230035351D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DFA0CB370457440AEB88E6A /* Pods-AltRealityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
