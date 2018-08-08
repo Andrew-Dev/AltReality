@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49A7ACF7211B9B220035351D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7ACF6211B9B220035351D /* AppDelegate.swift */; };
+		49A7ACF9211B9B220035351D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7ACF8211B9B220035351D /* ViewController.swift */; };
+		49A7ACFC211B9B220035351D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A7ACFA211B9B220035351D /* Main.storyboard */; };
+		49A7ACFE211B9B230035351D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A7ACFD211B9B230035351D /* Assets.xcassets */; };
+		49A7AD01211B9B230035351D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A7ACFF211B9B230035351D /* LaunchScreen.storyboard */; };
+		49A7AD0C211B9B230035351D /* AltRealityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7AD0B211B9B230035351D /* AltRealityTests.swift */; };
+		49A7AD17211B9B230035351D /* AltRealityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7AD16211B9B230035351D /* AltRealityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49A7AD08211B9B230035351D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A7ACEB211B9B220035351D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A7ACF2211B9B220035351D;
+			remoteInfo = AltReality;
+		};
+		49A7AD13211B9B230035351D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A7ACEB211B9B220035351D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A7ACF2211B9B220035351D;
+			remoteInfo = AltReality;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49A7ACF3211B9B220035351D /* AltReality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AltReality.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A7ACF6211B9B220035351D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49A7ACF8211B9B220035351D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49A7ACFB211B9B220035351D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49A7ACFD211B9B230035351D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49A7AD00211B9B230035351D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49A7AD02211B9B230035351D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A7AD07211B9B230035351D /* AltRealityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltRealityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A7AD0B211B9B230035351D /* AltRealityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltRealityTests.swift; sourceTree = "<group>"; };
+		49A7AD0D211B9B230035351D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A7AD12211B9B230035351D /* AltRealityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltRealityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A7AD16211B9B230035351D /* AltRealityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltRealityUITests.swift; sourceTree = "<group>"; };
+		49A7AD18211B9B230035351D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A7ACF0211B9B220035351D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A7AD04211B9B230035351D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A7AD0F211B9B230035351D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49A7ACEA211B9B220035351D = {
+			isa = PBXGroup;
+			children = (
+				49A7ACF5211B9B220035351D /* AltReality */,
+				49A7AD0A211B9B230035351D /* AltRealityTests */,
+				49A7AD15211B9B230035351D /* AltRealityUITests */,
+				49A7ACF4211B9B220035351D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49A7ACF4211B9B220035351D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A7ACF3211B9B220035351D /* AltReality.app */,
+				49A7AD07211B9B230035351D /* AltRealityTests.xctest */,
+				49A7AD12211B9B230035351D /* AltRealityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A7ACF5211B9B220035351D /* AltReality */ = {
+			isa = PBXGroup;
+			children = (
+				49A7ACF6211B9B220035351D /* AppDelegate.swift */,
+				49A7ACF8211B9B220035351D /* ViewController.swift */,
+				49A7ACFA211B9B220035351D /* Main.storyboard */,
+				49A7ACFD211B9B230035351D /* Assets.xcassets */,
+				49A7ACFF211B9B230035351D /* LaunchScreen.storyboard */,
+				49A7AD02211B9B230035351D /* Info.plist */,
+			);
+			path = AltReality;
+			sourceTree = "<group>";
+		};
+		49A7AD0A211B9B230035351D /* AltRealityTests */ = {
+			isa = PBXGroup;
+			children = (
+				49A7AD0B211B9B230035351D /* AltRealityTests.swift */,
+				49A7AD0D211B9B230035351D /* Info.plist */,
+			);
+			path = AltRealityTests;
+			sourceTree = "<group>";
+		};
+		49A7AD15211B9B230035351D /* AltRealityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49A7AD16211B9B230035351D /* AltRealityUITests.swift */,
+				49A7AD18211B9B230035351D /* Info.plist */,
+			);
+			path = AltRealityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49A7ACF2211B9B220035351D /* AltReality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A7AD1B211B9B230035351D /* Build configuration list for PBXNativeTarget "AltReality" */;
+			buildPhases = (
+				49A7ACEF211B9B220035351D /* Sources */,
+				49A7ACF0211B9B220035351D /* Frameworks */,
+				49A7ACF1211B9B220035351D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AltReality;
+			productName = AltReality;
+			productReference = 49A7ACF3211B9B220035351D /* AltReality.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49A7AD06211B9B230035351D /* AltRealityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A7AD1E211B9B230035351D /* Build configuration list for PBXNativeTarget "AltRealityTests" */;
+			buildPhases = (
+				49A7AD03211B9B230035351D /* Sources */,
+				49A7AD04211B9B230035351D /* Frameworks */,
+				49A7AD05211B9B230035351D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A7AD09211B9B230035351D /* PBXTargetDependency */,
+			);
+			name = AltRealityTests;
+			productName = AltRealityTests;
+			productReference = 49A7AD07211B9B230035351D /* AltRealityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49A7AD11211B9B230035351D /* AltRealityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A7AD21211B9B230035351D /* Build configuration list for PBXNativeTarget "AltRealityUITests" */;
+			buildPhases = (
+				49A7AD0E211B9B230035351D /* Sources */,
+				49A7AD0F211B9B230035351D /* Frameworks */,
+				49A7AD10211B9B230035351D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A7AD14211B9B230035351D /* PBXTargetDependency */,
+			);
+			name = AltRealityUITests;
+			productName = AltRealityUITests;
+			productReference = 49A7AD12211B9B230035351D /* AltRealityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49A7ACEB211B9B220035351D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Andrew Arpasi";
+				TargetAttributes = {
+					49A7ACF2211B9B220035351D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					49A7AD06211B9B230035351D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 49A7ACF2211B9B220035351D;
+					};
+					49A7AD11211B9B230035351D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 49A7ACF2211B9B220035351D;
+					};
+				};
+			};
+			buildConfigurationList = 49A7ACEE211B9B220035351D /* Build configuration list for PBXProject "AltReality" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49A7ACEA211B9B220035351D;
+			productRefGroup = 49A7ACF4211B9B220035351D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49A7ACF2211B9B220035351D /* AltReality */,
+				49A7AD06211B9B230035351D /* AltRealityTests */,
+				49A7AD11211B9B230035351D /* AltRealityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49A7ACF1211B9B220035351D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A7AD01211B9B230035351D /* LaunchScreen.storyboard in Resources */,
+				49A7ACFE211B9B230035351D /* Assets.xcassets in Resources */,
+				49A7ACFC211B9B220035351D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A7AD05211B9B230035351D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A7AD10211B9B230035351D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A7ACEF211B9B220035351D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A7ACF9211B9B220035351D /* ViewController.swift in Sources */,
+				49A7ACF7211B9B220035351D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A7AD03211B9B230035351D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A7AD0C211B9B230035351D /* AltRealityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A7AD0E211B9B230035351D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A7AD17211B9B230035351D /* AltRealityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49A7AD09211B9B230035351D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A7ACF2211B9B220035351D /* AltReality */;
+			targetProxy = 49A7AD08211B9B230035351D /* PBXContainerItemProxy */;
+		};
+		49A7AD14211B9B230035351D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A7ACF2211B9B220035351D /* AltReality */;
+			targetProxy = 49A7AD13211B9B230035351D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49A7ACFA211B9B220035351D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A7ACFB211B9B220035351D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49A7ACFF211B9B230035351D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A7AD00211B9B230035351D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49A7AD19211B9B230035351D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49A7AD1A211B9B230035351D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A7AD1C211B9B230035351D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltReality/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aarpasi.AltReality;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49A7AD1D211B9B230035351D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltReality/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aarpasi.AltReality;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49A7AD1F211B9B230035351D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltRealityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aarpasi.AltRealityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AltReality.app/AltReality";
+			};
+			name = Debug;
+		};
+		49A7AD20211B9B230035351D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltRealityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aarpasi.AltRealityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AltReality.app/AltReality";
+			};
+			name = Release;
+		};
+		49A7AD22211B9B230035351D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltRealityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aarpasi.AltRealityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AltReality;
+			};
+			name = Debug;
+		};
+		49A7AD23211B9B230035351D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltRealityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aarpasi.AltRealityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AltReality;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A7ACEE211B9B220035351D /* Build configuration list for PBXProject "AltReality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A7AD19211B9B230035351D /* Debug */,
+				49A7AD1A211B9B230035351D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A7AD1B211B9B230035351D /* Build configuration list for PBXNativeTarget "AltReality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A7AD1C211B9B230035351D /* Debug */,
+				49A7AD1D211B9B230035351D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A7AD1E211B9B230035351D /* Build configuration list for PBXNativeTarget "AltRealityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A7AD1F211B9B230035351D /* Debug */,
+				49A7AD20211B9B230035351D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A7AD21211B9B230035351D /* Build configuration list for PBXNativeTarget "AltRealityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A7AD22211B9B230035351D /* Debug */,
+				49A7AD23211B9B230035351D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49A7ACEB211B9B220035351D /* Project object */;
+}
